@@ -23,6 +23,7 @@ host = socket.gethostname()
 port = 5000
 client_socket = socket.socket()
 
+
 try:
     client_socket.connect((host, port))
 except ConnectionRefusedError:
